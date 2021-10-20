@@ -1,3 +1,3 @@
 from enum import Enum
 
-materialType = Enum('Titanium', 'Carbon')
+materialType = Enum('Titanium', 'Carbon', 'Vibranium')
