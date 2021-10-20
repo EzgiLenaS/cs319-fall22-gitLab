@@ -19,12 +19,21 @@ class MaterialManager:
                 self.carManager.setMaterial(materialType.Carbon)
                 returnText = "Material is changed to Carbon."
 
+<<<<<<< HEAD
             case materialType.Vibranium:
                 self.carManager.setMaterial(materialType.Vibranium)
                 returnText = "Material is changed to Vibranium."
 
             case _:
                 returnText = "Material selection is invalid."
+=======
+            case materialType.AlloyX:
+                self.carManager.setMaterial(materialType.AlloyX)
+                returnText = "Material is changed to AlloyX."
+
+            case _:
+returnText = "Material selection is invalid."
+>>>>>>> bruce-alloyX
 
         return self._announceMaterial(returnText)
 
